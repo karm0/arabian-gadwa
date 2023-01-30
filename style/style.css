@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;500;900&family=Roboto:ital,wght@0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;500;900&family=Roboto:ital,wght@0,400;0,500;1,300;1,400;1,500&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -34,7 +35,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 200px;
+  padding: 0 100px;
   text-transform: capitalize;
 }
 .logo{
@@ -96,6 +97,17 @@ header .fa-solid{
 }
 #navList.active{
   right: 0;
+}
+.text-img{
+  text-align: center;
+}
+.text-img p{
+  font-size: 1vw;
+  font-weight: 500;
+}
+.different-text{
+  font-family: 'Cairo', sans-serif;
+  margin-bottom: .2rem;
 }
 
 @media (max-width: 1220px){
@@ -665,9 +677,15 @@ header .fa-solid{
   padding: 3rem;
   border-radius: 10px;
   box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  position: relative;
 }
 .text-about p{
   font-size: 1.1vw;
+}
+.manager .text-about .police::before{
+  content: '-';
+  position: absolute;
+  left: 20px;
 }
 
 
