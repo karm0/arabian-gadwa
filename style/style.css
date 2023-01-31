@@ -123,6 +123,9 @@ header .fa-solid{
   .menu-bar{
     display: block;
   }
+  .logo .text-img p{
+    font-size: 1vw;
+  }
 }
 /* end header */
 
@@ -465,7 +468,10 @@ header .fa-solid{
   width: 30%;
 }
 .different-img img{
-  width: 55%;
+  width: 58%;
+}
+.different-img2 img{
+  width: 80%;
 }
 .info-cooperation {
   text-align: center;
